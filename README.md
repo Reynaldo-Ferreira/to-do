@@ -87,16 +87,6 @@ to-do/
 4. Push para a Branch (`git push origin feature/RecursoIncrivel`)
 5. Abra um Pull Request
 
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-## 📞 Contato
-
-Reynaldo Ferreira - [GitHub](https://github.com/Reynaldo-Ferreira)
-
-Link do Projeto: [https://github.com/Reynaldo-Ferreira/to-do](https://github.com/Reynaldo-Ferreira/to-do)
-
 ---
 
 ### 🌟 Melhorias Futuras
