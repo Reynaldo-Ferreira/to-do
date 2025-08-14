@@ -1,0 +1,84 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.todo-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item.baixa {
+    border-left: 5px solid #198754;
+}
+
+.todo-item.media {
+    border-left: 5px solid #ffc107;
+}
+
+.todo-item.alta {
+    border-left: 5px solid #dc3545;
+}
+
+.todo-item span {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.todo-item .actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.priority-info {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.priority-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.priority-item small {
+    color: #6c757d;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.task-date {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-left: 1rem;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.todo-item {
+    animation: fadeIn 0.3s ease-out;
+}
